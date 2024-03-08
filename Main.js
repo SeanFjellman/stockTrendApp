@@ -19,7 +19,9 @@ document.getElementById('stockSearchInput').addEventListener('input', function(e
     a.setAttribute("class", "autocomplete-items");
     this.parentNode.appendChild(a);
     for (let i = 0; i < stockNames.length; i++) {
-        if (stockNames[i].symbol.substr(0, val.length).toUpperCase() === val.toUpperCase()) {
+        // Check if the input value matches either the symbol or the name of the stock
+        if (stockNames[i].symbol.toLowerCase().startsWith(val.toLowerCase()) || 
+            stockNames[i].name.toLowerCase().startsWith(val.toLowerCase())) {
             b = document.createElement("DIV");
             b.innerHTML = "<strong>" + stockNames[i].symbol.substr(0, val.length) + "</strong>";
             b.innerHTML += stockNames[i].symbol.substr(val.length) + " (" + stockNames[i].name + ")";
@@ -27,12 +29,13 @@ document.getElementById('stockSearchInput').addEventListener('input', function(e
             b.addEventListener("click", function(e) {
                 document.getElementById('stockSearchInput').value = this.getElementsByTagName("input")[0].value;
                 closeAllLists();
-                lookupStock(document.getElementById('stockSearchInput').value); // Assuming lookupStock is implemented
+                lookupStock(document.getElementById('stockSearchInput').value); 
             });
             a.appendChild(b);
         }
     }
 });
+
 
 function closeAllLists(elmnt) {
     var x = document.getElementsByClassName("autocomplete-items");
@@ -248,7 +251,8 @@ document.getElementById('stockSearchForm').addEventListener('submit', function(e
 
 
 function lookupStock(stockSymbol) {
-    currentStockSymbol = stockSymbol; // Update the global variable
+    currentStockSymbol = stockSymbol;
+    updateStockNameDisplay(stockSymbol);
     const selectedRange = getSelectedRange();
 
 
@@ -280,16 +284,13 @@ if (symbol) {
 }
 
 function updateStockNameDisplay(symbol) {
-    
-    let stockName = '';
-    for (let i = 0; i < stockNames.length; i++) {
-        if (stockNames[i].symbol === symbol) {
-            stockName = stockNames[i].name;
-            break;
-        }
-    }
+    let stockInfo = stockNames.find(stock => stock.symbol === symbol);
 
-    if (stockName) {
-        document.getElementById('stockName').textContent = `Stock Name: ${stockName}`;
+    if (stockInfo) {
+        let displayName = `${stockInfo.name}: ${stockInfo.symbol}`;
+        document.getElementById('stockName').textContent = displayName;
+    } else {
+        document.getElementById('stockName').textContent = "Stock information not found";
     }
 }
+
