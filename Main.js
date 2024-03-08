@@ -151,7 +151,7 @@ function updateStockInfoUI(currentPrice, priceChange, percentChange) {
     document.getElementById('currentPrice').textContent = `Current Price: $${currentPrice.toFixed(2)}`;
     document.getElementById('priceChange').textContent = `Change: $${priceChange.toFixed(2)} (${percentChange.toFixed(2)}%)`;
     document.getElementById('priceChange').style.color = priceChange >= 0 ? 'green' : 'red';
-    document.getElementById('stockName').textContent = `Stock Name: ${currentStockSymbol.toUpperCase()}`;
+    //updateStockNameDisplay();
 
 }
 
