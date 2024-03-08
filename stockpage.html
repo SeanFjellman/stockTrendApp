@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Chart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="stockpage.css">
+</head>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Stock Dashboard</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+    </ul>
+</div>
+</nav>
+<form class="form-inline my-2 my-lg-0" id="stockSearchForm">
+    <input class="form-control mr-sm-2" type="search" id="stockSearchInput" placeholder="Search Stocks" aria-label="Search">
+    <div id="autocomplete-list" class="autocomplete-items"></div>
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+</form>
+
+
+<body>
+    
+    <div class="container my-4">
+    
+        <div class="stock-info">
+            <h3 id="stockName">Stock Name: AAPL</h3>
+            <p id="currentPrice">Current Price: $0.00</p>
+            <p id="priceChange">Change: $0.00 (0.00%)</p>
+        </div>
+        <div class="time-range-selector text-center my-3">
+            <button class="btn btn-outline-primary mx-1" onclick="setTimeRange('1w')">1W</button>
+            <button class="btn btn-outline-primary mx-1" onclick="setTimeRange('1m')">1M</button>
+            <button class="btn btn-outline-primary mx-1" onclick="setTimeRange('3m')">3M</button>
+            <button class="btn btn-outline-primary mx-1" onclick="setTimeRange('1y')">1Y</button>
+
+        </div>
+        <div id="timeFrameText" class="time-frame-text">Time Frame: Past Week</div>
+
+        <canvas id="stockChart"></canvas>
+
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        © 2024 Stock Tracker
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="Main.js"></script>
+</body>
+
+
+
+
+</html>
