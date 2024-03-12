@@ -1,0 +1,4 @@
+https://seanfjellman.github.io/stockTrendApp/
+name of repository: https://github.com/SeanFjellman/stockTrendApp
+
+group 44.
