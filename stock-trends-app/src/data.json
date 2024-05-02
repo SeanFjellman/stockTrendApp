@@ -1,0 +1,49 @@
+{"data":
+    [
+        {
+            "stockID": "Microsoft",
+            "url": "https://pngimg.com/d/microsoft_PNG14.png",
+            "description": "Microsoft is a company that provides computer software, cloud computing, video games, and many more making it the number one most bought stock"
+        },
+        {
+            "stockID": "Apple",
+            "url": "https://download.logo.wine/logo/Apple_Inc./Apple_Inc.-Logo.wine.png",
+            "description": "Being worth a trillion dollars, Apple provides and sells consumer electronics and software."
+        },
+        {
+            "stockID": "Nvidia",
+            "url": "https://www.auvsi.org/sites/default/files/NVIDIA%20Logo.png",
+            "backgroundSize": "140%",
+            "backgroundPosition": "center",
+            "backgroundRepeat": "no-repeat",
+            "description": "NVIDIA is an American technology company known for manufacturing Graphics Processing Units (GPUs). They are industry leaders in gaming, professional visualization, data centers, and artificial intelligence, utilizing their GPUs."
+        }
+        ,
+        {
+            "stockID": "Amazon",
+            "url": "https://www.logo.wine/a/logo/Amazon_(company)/Amazon_(company)-Logo.wine.svg",
+            "description": "Amazon is an international company based in Seattle, Washington. It has grown into one of the world's largest e-commerce platforms. Though primarily specializing in retail, Amazon is also a multimedia company, offering a wide range of products and services, including Amazon Web Services (AWS)."
+        },
+        {
+            "stockID": "Meta",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Meta-Logo.png",
+            "description": "Meta is a multimedia company that specializes in creating social media platforms, including Facebook, Instagram, and WhatsApp. This focus has made it one of the world's most influential companies."
+        },
+        {
+            "stockID": "Broadcom",
+            "url": "https://seeklogo.com/images/B/broadcom-logo-7B264C2D56-seeklogo.com.png",
+            "description": "Broadcom is an international company known for its semiconductor and infrastructure software solutions. With a presence in various markets including wired and wireless communication, automotive, industrial and many more. Broadcom holds a significant position in the technology industry."
+        },
+        {
+            "stockID": "Tesla",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Tesla_logo.png",
+            "description": "Tesla is a American electric Vehicle company leading industry standard into such a new market. Not only this they work on energy storage solutions and solar products, with the goal being to accelerate the worlds transition to sustainable energy."
+        },
+        {
+            "stockID": "AlphabetA",
+            "url": "data:image/png;base64,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",
+            "description": "Alphabet is a company that owns some of the largest companys in the world such as google. Their primary focus is on technology, internet services, software, and hardware development"
+        }
+    ]
+
+}

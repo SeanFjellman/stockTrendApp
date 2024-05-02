@@ -1,6 +1,7 @@
 let stockNames = [];
 
-fetch('stocks.json')
+// Update the URL to the endpoint where your backend serves the stock data
+fetch('http://localhost:8081/stocks')  // Adjust the port and path as necessary
     .then(response => response.json())
     .then(data => {
         stockNames = data;

@@ -1,0 +1,280 @@
+[{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee07813"
+  },
+  "symbol": "AAPL",
+  "name": "Apple Inc."
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee07814"
+  },
+  "symbol": "AMZN",
+  "name": "Amazon.com, Inc."
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee07815"
+  },
+  "symbol": "MSFT",
+  "name": "Microsoft Corporation"
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee07816"
+  },
+  "symbol": "GOOGL",
+  "name": "Alphabet Inc."
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee07817"
+  },
+  "symbol": "FB",
+  "name": "Meta Platforms Inc."
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee07818"
+  },
+  "symbol": "TSLA",
+  "name": "Tesla Inc."
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee07819"
+  },
+  "symbol": "JPM",
+  "name": "JPMorgan Chase & Co."
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee0781a"
+  },
+  "symbol": "WMT",
+  "name": "Walmart Inc."
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee0781b"
+  },
+  "symbol": "V",
+  "name": "Visa Inc."
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee0781c"
+  },
+  "symbol": "MA",
+  "name": "Mastercard Inc."
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee0781d"
+  },
+  "symbol": "NVDA",
+  "name": "NVIDIA Corporation"
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee0781e"
+  },
+  "symbol": "JNJ",
+  "name": "Johnson & Johnson"
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee0781f"
+  },
+  "symbol": "PG",
+  "name": "Procter & Gamble Company"
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee07820"
+  },
+  "symbol": "UNH",
+  "name": "UnitedHealth Group Inc."
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee07821"
+  },
+  "symbol": "HD",
+  "name": "The Home Depot Inc."
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee07822"
+  },
+  "symbol": "PYPL",
+  "name": "PayPal Holdings Inc."
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee07823"
+  },
+  "symbol": "INTC",
+  "name": "Intel Corporation"
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee07824"
+  },
+  "symbol": "CMCSA",
+  "name": "Comcast Corporation"
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee07825"
+  },
+  "symbol": "DIS",
+  "name": "The Walt Disney Company"
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee07826"
+  },
+  "symbol": "VZ",
+  "name": "Verizon Communications Inc."
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee07827"
+  },
+  "symbol": "BAC",
+  "name": "Bank of America Corp"
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee07828"
+  },
+  "symbol": "KO",
+  "name": "Coca-Cola Co"
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee07829"
+  },
+  "symbol": "NKE",
+  "name": "Nike Inc"
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee0782a"
+  },
+  "symbol": "MCD",
+  "name": "McDonald's Corp"
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee0782b"
+  },
+  "symbol": "PFE",
+  "name": "Pfizer Inc"
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee0782c"
+  },
+  "symbol": "BA",
+  "name": "Boeing Co"
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee0782d"
+  },
+  "symbol": "XOM",
+  "name": "Exxon Mobil Corp"
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee0782e"
+  },
+  "symbol": "CSCO",
+  "name": "Cisco Systems Inc"
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee0782f"
+  },
+  "symbol": "ORCL",
+  "name": "Oracle Corporation"
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee07830"
+  },
+  "symbol": "SAP",
+  "name": "SAP SE"
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee07831"
+  },
+  "symbol": "IBM",
+  "name": "IBM Corporation"
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee07832"
+  },
+  "symbol": "BRK.A",
+  "name": "Berkshire Hathaway Inc."
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee07833"
+  },
+  "symbol": "T",
+  "name": "AT&T Inc."
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee07834"
+  },
+  "symbol": "NFLX",
+  "name": "Netflix Inc."
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee07835"
+  },
+  "symbol": "MRK",
+  "name": "Merck & Co., Inc."
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee07836"
+  },
+  "symbol": "PEP",
+  "name": "PepsiCo, Inc."
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee07837"
+  },
+  "symbol": "ABBV",
+  "name": "AbbVie Inc."
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee07838"
+  },
+  "symbol": "ABT",
+  "name": "Abbott Laboratories"
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee07839"
+  },
+  "symbol": "CVX",
+  "name": "Chevron Corporation"
+},
+{
+  "_id": {
+    "$oid": "6633d2a1c7f6dddf0ee0783a"
+  },
+  "symbol": "LLY",
+  "name": "Eli Lilly and Company"
+}]
