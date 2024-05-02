@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backendforstockapp",
+  "main": "backend.js",
+  "scripts": {
+    "test": "test command",
+    "start": "node backend.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeanFjellman/stockTrendApp.git"
+  },
+  "keywords": [
+    "backend",
+    "stocks"
+  ],
+  "author": "Sean Fjellman, Nick Messerges",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeanFjellman/stockTrendApp/issues"
+  },
+  "homepage": "https://github.com/SeanFjellman/stockTrendApp#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0"
+  }
+}
