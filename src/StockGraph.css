@@ -1,0 +1,55 @@
+/* App.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.stock-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+/* StockGraph.css */
+.chart-container {
+    width: 100%; /* Adjust width as necessary */
+    height: 500px; /* You can adjust this height based on your needs */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    background-color: white;
+    border-radius: 8px;
+}
+.time-range-selector {
+    text-align: center;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Button active state */
+.btn.active {
+    background-color: #007bff;
+    color: white;
+}
+
+canvas {
+    width: 100% !important;
+    height: auto !important;
+}
